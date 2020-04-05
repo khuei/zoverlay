@@ -1,0 +1,4 @@
+Installation
+____________
+
+layman -o https://raw.github.com/Z5483/Z5483-overlay/master/repositories.xml -f -a Z5483
