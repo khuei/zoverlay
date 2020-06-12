@@ -30,6 +30,12 @@ DOCS=( ChangeLog README )
 
 CONFIG_CHECK="~TASKSTATS ~TASK_XACCT ~TASK_IO_ACCOUNTING ~CGROUPS"
 
+PATCHES=(
+	# Fixes from upstream (can usually be removed with next version bump)
+	"${FILESDIR}"/${PN}-2.1.0-header_updates.patch
+	"${FILESDIR}"/${PN}-3.0.0_beta5-gcc-10.patch
+)
+
 pkg_setup() {
 	if ! has_version sys-process/lsof; then
 		ewarn "To use lsof features in htop (what processes are accessing"
