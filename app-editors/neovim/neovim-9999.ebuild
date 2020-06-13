@@ -22,22 +22,22 @@ BDEPEND="
 "
 
 DEPEND="
-	dev-libs/libutf8proc:=
-	dev-libs/libuv:0=
-	>=dev-libs/libvterm-0.1
-	dev-libs/msgpack:0=
+	dev-libs/libutf8proc
+	dev-libs/libuv
+	dev-libs/libvterm
+	dev-libs/msgpack
 	dev-lua/lpeg[luajit=]
 	dev-lua/luv[luajit=]
 	dev-lua/mpack[luajit=]
 	net-libs/libnsl
 	luajit? ( dev-lang/luajit:2 )
 	!luajit? (
-		dev-lang/lua:=
+		dev-lang/lua
 		dev-lua/LuaBitOp
 	)
 	tui? (
 		dev-libs/libtermkey
-		>=dev-libs/unibilium-2.0.0:0=
+		dev-libs/unibilium
 	)
 "
 
