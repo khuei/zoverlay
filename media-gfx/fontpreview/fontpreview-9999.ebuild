@@ -11,10 +11,12 @@ EGIT_REPO_URI="https://github.com/Z5483/fontpreview"
 LICENSE="MIT"
 SLOT="0"
 KEYWORDS="~amd64"
+IUSE="skim"
 
 RDEPEND="
 	x11-misc/xdotool
-	app-shells/fzf
+	!skim? ( app-shells/fzf )
+	skim? ( app-misc/skim )
 	media-gfx/imagemagick
 	media-gfx/sxiv
 "
