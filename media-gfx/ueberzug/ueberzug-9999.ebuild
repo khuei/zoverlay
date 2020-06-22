@@ -9,7 +9,7 @@ inherit distutils-r1 git-r3
 
 DESCRIPTION="ueberzug is an alternative for w3mimgdisplay"
 HOMEPAGE="https://github.com/seebye/ueberzug"
-EGIT_REPO_URI="https://github.com/seebye/ueberzug"
+EGIT_REPO_URI="https://github.com/seebye/ueberzug.git"
 
 LICENSE="GPL-3"
 SLOT="0"

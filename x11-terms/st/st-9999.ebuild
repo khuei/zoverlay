@@ -7,7 +7,7 @@ inherit desktop git-r3 multilib savedconfig toolchain-funcs
 DESCRIPTION="simple terminal implementation for X"
 HOMEPAGE="https://st.suckless.org/"
 EGIT_REPO_URI="https://github.com/Z5483/st.git"
-#https://github.com/picarica/st/commit/66780d00e41d9b69dd42c9fb1a18f516fadce1fb
+
 LICENSE="MIT-with-advertising"
 SLOT="0"
 KEYWORDS="amd64 ~arm ~arm64 hppa ~ppc64 x86"

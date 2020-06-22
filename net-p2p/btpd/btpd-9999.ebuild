@@ -8,7 +8,7 @@ inherit git-r3 toolchain-funcs
 
 DESCRIPTION="The BitTorrent Protocol Daemon"
 HOMEPAGE="https://github.com/btpd/btpd/wiki"
-EGIT_REPO_URI="https://github.com/btpd/btpd"
+EGIT_REPO_URI="https://github.com/btpd/btpd.git"
 
 LICENSE="BSD"
 SLOT="0"

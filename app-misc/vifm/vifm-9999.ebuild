@@ -9,7 +9,7 @@ MY_P=$(replace_version_separator 4 '-' ${PF})
 
 DESCRIPTION="Console file manager with vi(m)-like keybindings"
 HOMEPAGE="https://vifm.info/"
-EGIT_REPO_URI="https://github.com/vifm/vifm"
+EGIT_REPO_URI="https://github.com/vifm/vifm.git"
 
 LICENSE="GPL-2"
 SLOT="0"

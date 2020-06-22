@@ -7,7 +7,7 @@ inherit git-r3 toolchain-funcs
 
 DESCRIPTION="Utility to make modifier keys send custom key events when pressed on their own"
 HOMEPAGE="https://github.com/alols/xcape"
-EGIT_REPO_URI="https://github.com/Z5483/xcape"
+EGIT_REPO_URI="https://github.com/Z5483/xcape.git"
 
 LICENSE="GPL-3"
 SLOT="0"

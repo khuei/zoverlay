@@ -6,7 +6,7 @@ inherit flag-o-matic git-r3
 
 DESCRIPTION="An abstract library implementation of a VT220/xterm/ECMA-48 terminal emulator"
 HOMEPAGE="http://www.leonerd.org.uk/code/libvterm/"
-EGIT_REPO_URI="http://github.com/neovim/libvterm"
+EGIT_REPO_URI="http://github.com/neovim/libvterm.git"
 
 LICENSE="MIT"
 SLOT="0"

@@ -11,7 +11,7 @@ DESCRIPTION="interactive process viewer"
 HOMEPAGE="https://hisham.hm/htop/"
 if [[ ${PV} = 9999* ]] ; then
         GIT_ECLASS="git-r3"
-	EGIT_REPO_URI="https://github.com/Z5483/htop"
+	EGIT_REPO_URI="https://github.com/Z5483/htop.git"
 else
 	SRC_URI="https://hisham.hm/htop/releases/${PV}/${P}.tar.gz"
 fi

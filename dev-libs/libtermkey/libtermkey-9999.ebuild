@@ -6,7 +6,7 @@ inherit flag-o-matic git-r3
 
 DESCRIPTION="Library for easy processing of keyboard entry from terminal-based programs"
 HOMEPAGE="http://www.leonerd.org.uk/code/libtermkey/"
-EGIT_REPO_URI="http://github.com/neovim/libtermkey"
+EGIT_REPO_URI="http://github.com/neovim/libtermkey.git"
 
 LICENSE="MIT"
 SLOT="0"

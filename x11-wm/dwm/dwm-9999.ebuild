@@ -6,7 +6,7 @@ inherit git-r3 toolchain-funcs
 
 DESCRIPTION="a dynamic window manager for X11"
 HOMEPAGE="https://dwm.suckless.org/"
-EGIT_REPO_URI="https://github.com/Z5483/dwm"
+EGIT_REPO_URI="https://github.com/Z5483/dwm.git"
 
 LICENSE="MIT"
 SLOT="0"

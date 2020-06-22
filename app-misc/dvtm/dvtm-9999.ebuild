@@ -7,7 +7,7 @@ inherit git-r3 savedconfig toolchain-funcs
 
 DESCRIPTION="Dynamic virtual terminal manager"
 HOMEPAGE="http://www.brain-dump.org/projects/dvtm/"
-EGIT_REPO_URI="https://github.com/Z5483/dvtm"
+EGIT_REPO_URI="https://github.com/Z5483/dvtm.git"
 
 LICENSE="MIT"
 SLOT="0"

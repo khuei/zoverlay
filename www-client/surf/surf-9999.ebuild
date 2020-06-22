@@ -6,7 +6,7 @@ inherit git-r3 savedconfig toolchain-funcs
 
 DESCRIPTION="a simple web browser based on WebKit/GTK+"
 HOMEPAGE="https://surf.suckless.org/"
-EGIT_REPO_URI="https://github.com/Z5483/surf"
+EGIT_REPO_URI="https://github.com/Z5483/surf.git"
 EGIT_BRANCH="surf-webkit2"
 
 LICENSE="MIT"

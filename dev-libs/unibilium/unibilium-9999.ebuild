@@ -6,7 +6,7 @@ inherit flag-o-matic git-r3
 
 DESCRIPTION="A very basic terminfo library"
 HOMEPAGE="https://github.com/mauke/unibilium/"
-EGIT_REPO_URI="https://github.com/neovim/unibilium"
+EGIT_REPO_URI="https://github.com/neovim/unibilium.git"
 
 LICENSE="LGPL-3+ MIT"
 SLOT="0/4"
