@@ -1,12 +1,3 @@
-From b452c1c0416c93f806c6e7a7d19b65ddf60f2d90 Mon Sep 17 00:00:00 2001
-From: Z5483 <Z5483Y@gmail.com>
-Date: Mon, 1 Jun 2020 14:45:32 -0400
-Subject: [PATCH] hello
-
----
- config.mk | 10 +++++-----
- 1 file changed, 5 insertions(+), 5 deletions(-)
-
 diff --git a/config.mk b/config.mk
 index 3b32b7c..87959c6 100644
 --- a/config.mk
@@ -16,11 +7,11 @@ index 3b32b7c..87959c6 100644
  
  # flags
 -CPPFLAGS = -I$(X11INC) -D_DEFAULT_SOURCE
--CFLAGS   = -std=c99 -pedantic -Wall -Wextra -Os
+-CFLAGS   = -std=c99 -ffunction-sections -fdata-sections -pedantic -Wall -Wextra -Os
 -LDFLAGS  = -L$(X11LIB) -s
 -LDLIBS   = -lX11
 +CPPFLAGS += -I$(X11INC) -D_DEFAULT_SOURCE
-+CFLAGS   += -std=c99 -pedantic -Wall -Wextra
++CFLAGS   += -std=c99 -ffunction-sections -fdata-sections -pedantic -Wall -Wextra
 +LDFLAGS  += -L$(X11LIB) -s
 +LDLIBS   += -lX11
  
