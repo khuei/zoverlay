@@ -24,6 +24,10 @@ DEPEND="
 	xinerama? ( x11-base/xorg-proto )
 "
 
+PATCHES=(
+	"${FILESDIR}"/${PN}-9999.patch
+)
+
 src_prepare() {
 	default
 
