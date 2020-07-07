@@ -10,7 +10,7 @@ EGIT_REPO_URI="https://github.com/Z5483/st.git"
 
 LICENSE="MIT-with-advertising"
 SLOT="0"
-KEYWORDS="amd64 ~arm ~arm64 hppa ~ppc64 x86"
+KEYWORDS="~amd64 ~arm ~arm64 ~hppa ~ppc64 ~x86"
 IUSE="savedconfig"
 
 RDEPEND="
@@ -50,7 +50,6 @@ src_configure() {
 
 src_install() {
 	emake DESTDIR="${D}" PREFIX="${EPREFIX}"/usr install
-
 
 	make_desktop_entry ${PN} simpleterm utilities-terminal 'System;TerminalEmulator;' ''
 
