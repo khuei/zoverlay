@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="project">
+		<email>Z5483Y@gmail.com</email>
+		<name>Khue Nguyen</name>
+	</maintainer>
+	<upstream>
+		<remote-id type="github">Z5483/slock</remote-id>
+	</upstream>
+</pkgmetadata>
