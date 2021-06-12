@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <repositories version="1.0">
     <repo quality="experimental" status="unofficial">
-        <name>Z5483</name>
+        <name>zoverlay</name>
         <description>Live ebuilds of Z5483's projects</description>
-        <homepage>https://github.com/Z5483/Z5483-overlay</homepage>
+        <homepage>https://github.com/Z5483/zoverlay</homepage>
         <owner>
             <email>Z5483Y@gmail.com</email>
             <name>Khue Nguyen</name>
         </owner>
-        <source type="git">https://github.com/Z5483/Z5483-overlay</source>
+        <source type="git">https://github.com/Z5483/zoverlay</source>
     </repo>
 </repositories>
