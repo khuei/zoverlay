@@ -6,14 +6,14 @@ inherit
 
 if [[ "${PV}" == *9999* ]]; then
 	inherit git-r3
-	EGIT_REPO_URI="https://github.com/Z5483/cbase16"
+	EGIT_REPO_URI="https://github.com/khuei/cbase16"
 else
 	KEYWORDS="~amd64"
-	SRC_URI="https://github.com/Z5483/cbase16/archive/v${PV}.tar.gz"
+	SRC_URI="https://github.com/khuei/cbase16/archive/v${PV}.tar.gz"
 fi
 
 DESCRIPTION="blazing fast base16 builder"
-HOMEPAGE="https://github.com/Z5483/cbase16"
+HOMEPAGE="https://github.com/khuei/cbase16"
 
 LICENSE="GPL-3"
 SLOT="0"

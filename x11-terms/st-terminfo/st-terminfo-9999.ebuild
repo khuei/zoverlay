@@ -1,4 +1,4 @@
-# Copyright 1999-2015 Gentoo Foundation
+# Copyright 1999-2021 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=7
@@ -6,7 +6,7 @@ inherit eutils git-r3
 
 DESCRIPTION="terminfo for st"
 HOMEPAGE="http://st.suckless.org/"
-EGIT_REPO_URI="https://github.com/Z5483/st.git"
+EGIT_REPO_URI="https://github.com/khuei/st.git"
 
 LICENSE="MIT-with-advertising"
 SLOT="0"

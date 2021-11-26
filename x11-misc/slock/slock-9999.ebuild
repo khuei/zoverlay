@@ -1,4 +1,4 @@
-# Copyright 1999-2020 Gentoo Authors
+# Copyright 1999-2021 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=6
@@ -6,7 +6,7 @@ inherit fcaps git-r3 savedconfig toolchain-funcs
 
 DESCRIPTION="simple X display locker"
 HOMEPAGE="https://tools.suckless.org/slock"
-EGIT_REPO_URI="https://github.com/Z5483/slock.git"
+EGIT_REPO_URI="https://github.com/khuei/slock.git"
 
 LICENSE="MIT"
 SLOT="0"

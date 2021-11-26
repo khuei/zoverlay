@@ -1,4 +1,4 @@
-# Copyright 1999-2019 Gentoo Authors
+# Copyright 1999-2021 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=7
@@ -6,7 +6,7 @@ inherit git-r3 savedconfig toolchain-funcs
 
 DESCRIPTION="a dynamic window manager for X11"
 HOMEPAGE="https://dwm.suckless.org/"
-EGIT_REPO_URI="https://github.com/Z5483/dwm.git"
+EGIT_REPO_URI="https://github.com/khuei/dwm.git"
 
 LICENSE="MIT"
 SLOT="0"

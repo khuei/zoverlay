@@ -3,11 +3,11 @@
     <repo quality="experimental" status="unofficial">
         <name>zoverlay</name>
         <description>Live ebuilds of Z5483's projects</description>
-        <homepage>https://github.com/Z5483/zoverlay</homepage>
+        <homepage>https://github.com/khuei/zoverlay</homepage>
         <owner>
             <email>Z5483Y@gmail.com</email>
             <name>Khue Nguyen</name>
         </owner>
-        <source type="git">https://github.com/Z5483/zoverlay</source>
+        <source type="git">https://github.com/khuei/zoverlay</source>
     </repo>
 </repositories>
