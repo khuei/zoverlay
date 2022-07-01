@@ -2,7 +2,7 @@
 <repositories version="1.0">
     <repo quality="experimental" status="unofficial">
         <name>zoverlay</name>
-        <description>Live ebuilds of Z5483's projects</description>
+        <description>Live ebuilds of khuei's projects</description>
         <homepage>https://github.com/khuei/zoverlay</homepage>
         <owner>
             <email>Z5483Y@gmail.com</email>

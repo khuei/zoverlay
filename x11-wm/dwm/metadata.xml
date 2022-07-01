@@ -6,6 +6,6 @@
 		<name>Khue Nguyen</name>
 	</maintainer>
 	<upstream>
-		<remote-id type="github">Z5483/dwm</remote-id>
+		<remote-id type="github">khuei/dwm</remote-id>
 	</upstream>
 </pkgmetadata>

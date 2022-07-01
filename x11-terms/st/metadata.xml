@@ -6,6 +6,6 @@
 		<name>Khue Nguyen</name>
 	</maintainer>
 	<upstream>
-		<remote-id type="github">Z5483/st</remote-id>
+		<remote-id type="github">khuei/st</remote-id>
 	</upstream>
 </pkgmetadata>
