@@ -1,7 +1,9 @@
 # Copyright 1999-2021 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
-EAPI=7
+EAPI=8
+
+CRATES=""
 
 inherit cargo
 
@@ -23,8 +25,8 @@ RESTRICT="mirror"
 
 DEPEND="
 	|| (
-		>=dev-lang/rust-1.51.0[rls]
-		>=dev-lang/rust-bin-1.51.0[rls]
+		>=dev-lang/rust-1.51.0
+		>=dev-lang/rust-bin-1.51.0
 	)
 "
 RDEPEND="${DEPEND}"

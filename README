@@ -1,4 +1,4 @@
 Installation
 ____________
 
-layman -o https://raw.github.com/Z5483/zoverlay/master/repositories.xml -f -a zoverlay
+layman -o https://raw.github.com/khuei/zoverlay/master/repositories.xml -f -a zoverlay

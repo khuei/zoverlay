@@ -1,7 +1,7 @@
 # Copyright 1999-2021 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
-EAPI=6
+EAPI=8
 inherit fcaps git-r3 savedconfig toolchain-funcs
 
 DESCRIPTION="simple X display locker"
@@ -10,9 +10,10 @@ EGIT_REPO_URI="https://github.com/khuei/slock.git"
 
 LICENSE="MIT"
 SLOT="0"
-KEYWORDS="~amd64 ~arm64 hppa x86"
+KEYWORDS=""
 
 RDEPEND="
+	virtual/libcrypt:=
 	x11-libs/libX11
 	x11-libs/libXext
 	x11-libs/libXrandr
@@ -33,10 +34,6 @@ src_prepare() {
 	sed -i \
 		-e 's|@${CC}|$(CC)|g' \
 		Makefile || die
-
-	if use elibc_FreeBSD; then
-		sed -i -e 's/-DHAVE_SHADOW_H//' config.mk || die
-	fi
 
 	restore_config config.h
 

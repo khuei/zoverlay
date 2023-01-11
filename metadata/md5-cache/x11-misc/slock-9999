@@ -1,0 +1,15 @@
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=compile install postinst prepare unpack
+DEPEND=virtual/libcrypt:= x11-libs/libX11 x11-libs/libXext x11-libs/libXrandr x11-base/xorg-proto
+DESCRIPTION=simple X display locker
+EAPI=8
+HOMEPAGE=https://tools.suckless.org/slock
+IDEPEND=filecaps? ( sys-libs/libcap )
+INHERIT=fcaps git-r3 savedconfig toolchain-funcs
+IUSE=+filecaps savedconfig
+LICENSE=MIT
+PROPERTIES=live
+RDEPEND=virtual/libcrypt:= x11-libs/libX11 x11-libs/libXext x11-libs/libXrandr
+SLOT=0
+_eclasses_=fcaps	da0130200e07aaecee121b85f4b9ea17	git-r3	2347f8fe2d392b2a091191f94be37e6f	portability	58227860123d3e8da23290064ce3373e	savedconfig	4011d8d7370446e970e2c92b20a31341	toolchain-funcs	ec8bbc28394c7305b43ea07164bd8f5f	multilib	5ca4e49abed8e3a2f7b56920eadee157
+_md5_=12f99d0a175de4ea1b14b8c33d13965f
